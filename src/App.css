@@ -79,16 +79,29 @@
 }
 
 .AddToList-input {
-  padding: 0.5rem;
+  padding: 1.5rem;
+  outline: none;
   font-size: 1rem;
-  margin: 0.3rem 0rem
+  margin: 0.3rem 0rem;
+  border:none;
+  border: 1px solid #e4e4e4;
+  border-radius: 1.5rem;
 }
 
 .AddToList-btn {
-  padding: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
   cursor: pointer;
-  background-color: #0b5468;
+  background-color: #5bc0de;
   font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 50px;
   color: white;
-  border: none
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.AddToList-btn:hover {
+ background-color: #00c3ff;
+ transform: scale(1.1);
 }
