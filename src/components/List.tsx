@@ -49,7 +49,7 @@ const List: React.FC<IProps> = ({ people,setPeople }) => {
             return (
                 <li key={index} className="List">
                     <div className="List-header">
-                        <img className="List-img" src={person.img}/>
+                        <img className="List-img" src={person.img} alt="avatar"/>
                         <h2>{person.name}</h2>
                     </div>
                     <p>{person.age} years old</p>
